@@ -4,21 +4,16 @@
 Welcome! This coding challenge is designed to explore your frontend skills. You will have to create a simple SPA based off the provided mockup and make a few API calls to a public web API.
 
 ### The challenge
-Based off this [mockup], create a search page that allows searching for movies as keywords are typed into the search bar. The results should be displayed in a visually appealing manner. 
+Create a search page that allows searching for movies as keywords are typed into the search bar. The results should be displayed in a visually appealing manner. The search page should follow your interpretation of cohire's branding, and you can use this [mockup] for reference, but please do not follow it. 
 
 Movie data can be queried via: 
 - [theMovieDB]
-
-### Additional notes
-- The wordings in the mockup are not necessarily accurate
-- As illustrated in the mockup, the search bar is made up of two sections. The section labeled as 'Where' must have a fixed width of 200px, while the section labeled as 'Developer' should be responsive
-- Any image assets can be grabbed from [cohire's website]
 
 ### Submission guide
 Please fork this repo and drop your contact person a note once you are done
 
 ### Technology
-At Cohire we predominantly use React for our frontend, and hence you are highly encouraged to use that for this challenge as well. However if React is not something you are comfortable with, please feel free to utilize other frontend frameworks or go for native HTML/CSS. Feel free to use any libraries.
+At Cohire we predominantly use React for our frontend, and hence you are highly encouraged to use that for this challenge as well. 
 
 ### How we review
 - **Design**: Were you able to translate the mockup into a web application that works well on various browsers and devices?
@@ -34,4 +29,3 @@ At Cohire we predominantly use React for our frontend, and hence you are highly 
 
 [mockup]: <https://invis.io/H7D7QQOTA>
 [theMovieDB]: <https://www.themoviedb.org/documentation/api>
-[cohire's website]: <https://www.co-hire.com/candidate>
