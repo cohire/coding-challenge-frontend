@@ -28,5 +28,5 @@ At Cohire we predominantly use React for our frontend. React is encouraged, but 
 - **Production-readiness** - Is there proper error handling? Is the code ready to to put into production?
 - **Future-readiness** - Web workers? PWA? Client-side caching?
 
-[mockup]: <https://drive.google.com/open?id=1SMvxNQYf-LHdBhKkIun94erDeCmNcs3u>
+[mockup]: <https://drive.google.com/open?id=1D0Iyjb6RQh6dLOQ5bxrfeIit2oJ_yVse>
 [theMovieDB]: <https://www.themoviedb.org/documentation/api>
