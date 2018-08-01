@@ -6,7 +6,7 @@ Welcome! This coding challenge is designed to explore your frontend skills. You 
 ### The challenge
 Create a search page that looks like this [mockup]. Within the zip file, you will also find image resources that you can utilize. 
 
-The search page should enable to user to search for movies as keywords are typed into the search bar. Functionality for filtering does not need to be implemented, however the filter categories should still be expandable upon clicking. Other than the search functionality, no other functionality is expected. 
+The search page should enable the user to search for movies as keywords are typed into the search bar. Functionality for filtering does not need to be implemented, however the filter categories should still be expandable upon clicking. Other than the search functionality, no other functionality is expected. 
 
 Movie data can be queried via: 
 - [theMovieDB]
