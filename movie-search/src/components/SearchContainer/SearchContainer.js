@@ -6,7 +6,8 @@ import SearchWidget from './SearchWidget/SearchWidget'
 
 class SearchContainer extends Component {
   state = {
-    inputValue: '',
+    titleInputValue: '',
+    yearInputValue: '',
     savedSearch: '',
     totalResults: '',
     moviesList: [],
@@ -28,7 +29,7 @@ class SearchContainer extends Component {
 
   inputChangedHandler = e => {
     this.setState({
-      inputValue: e.target.value,
+      titleInputValue: e.target.value,
       savedSearch: e.target.value
     })
   }
@@ -36,7 +37,9 @@ class SearchContainer extends Component {
   findMoviesHandler = (movie, pageNumber) => {
     const baseURL =
       'https://api.themoviedb.org/3/search/movie?api_key=e16c1f5204dd23fdebe3cf4ed1ca9581'
-    const query = pageNumber ? this.state.savedSearch : this.state.inputValue
+    const query = pageNumber
+      ? this.state.savedSearch
+      : this.state.titleInputValue
     axios
       .get(baseURL, {
         params: {
@@ -57,7 +60,7 @@ class SearchContainer extends Component {
             error: false,
             moviesList: movies,
             totalResults: generalInfo.total_results,
-            inputValue: '',
+            titleInputValue: '',
             totalPages: generalInfo.total_pages,
             page: page
           })
@@ -77,9 +80,11 @@ class SearchContainer extends Component {
         <SearchResults
           movies={this.state.moviesList}
           genres={this.state.genres}
+          totalResults={this.state.totalResults}
         />
         <SearchWidget
-          value={this.state.inputValue}
+          titleValue={this.state.titleInputValue}
+          yearValue={this.state.inputValue}
           changed={e => this.inputChangedHandler(e)}
           clicked={this.findMoviesHandler}
         />
