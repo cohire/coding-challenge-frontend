@@ -1,0 +1,5 @@
+.SearchWidget {
+    background-color: white;
+    padding:1rem;
+    color: var(--bright-green);
+}

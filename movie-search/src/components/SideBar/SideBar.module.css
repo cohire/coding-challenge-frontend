@@ -1,3 +1,5 @@
 .SideBar {
     flex-basis: 20%;
+    background-color: var(--dark-blue);
+    color: white;
 }

@@ -2,4 +2,5 @@
     flex-basis: 80%;
     padding:4rem;
     display: flex;
+    background-color: var(--off-white);
 }
