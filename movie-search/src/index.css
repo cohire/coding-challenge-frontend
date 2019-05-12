@@ -1,3 +1,9 @@
+:root {
+	--dark-blue: #001E2D;
+	--bright-green: #D9E021;
+	--off-white: #F6F7F9;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
