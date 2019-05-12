@@ -41,6 +41,10 @@
     color: var(--bright-green);
 }
 
+.ResultOverview {
+    line-height:1.3rem;
+}
+
 .ReleaseDate {
     position: absolute;
     bottom:0;
