@@ -1,5 +1,6 @@
 :root {
 	--dark-blue: #001E2D;
+	--blue: #243B45;
 	--bright-green: #D9E021;
 	--off-white: #F6F7F9;
 }
@@ -56,4 +57,5 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color:var(--dark-blue);
 }
