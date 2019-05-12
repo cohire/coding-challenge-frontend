@@ -9,6 +9,12 @@
 .ResultImageContainer {
     width: 185px;
     margin-right: 1rem;
+    overflow: hidden;
+}
+
+.ResultImage {
+    width: 100%;
+    height: auto;
 }
 
 .ResultDetails {

@@ -7,7 +7,11 @@ const searchResult = props => {
   return (
     <div className={styles.Result}>
       <div className={styles.ResultImageContainer}>
-        <img src={imageURL + props.poster} alt={`${props.title}-poster`} />
+        <img
+          className={styles.ResultImage}
+          src={imageURL + props.poster}
+          alt={`${props.title}-poster`}
+        />
       </div>
       <div className={styles.ResultDetails}>
         <div className={styles.ResultCardHeader}>
