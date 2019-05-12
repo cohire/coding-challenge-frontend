@@ -5,17 +5,18 @@ const searchWidget = props => {
   return (
     <div className={styles.SearchWidget}>
       <div className={styles.TitleSearch}>
-        <button className={styles.TitleButton} onClick={props.clicked} />
+        <div className={styles.TitleIcon} />
         <input
           className={styles.SearchInput}
           type='text'
           placeholder='Movie title'
           value={props.titleValue}
           onChange={props.changed}
+          onKeyUp={props.clicked}
         />
       </div>
       <div className={styles.YearSearch}>
-        <button className={styles.YearButton} onClick={props.clicked} />
+        <div className={styles.YearIcon} onClick={props.clicked} />
         <input
           className={styles.SearchInput}
           type='text'

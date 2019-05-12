@@ -1,6 +1,6 @@
 .SearchWidget {
     background-color: white;
-    padding:1rem;
+    padding:1.5rem;
     color: var(--bright-green);
     margin-top:2rem;
     align-self: flex-start;
@@ -18,16 +18,13 @@
     margin-bottom:1rem;
 }
 
-.TitleButton,
-.YearButton {
-    border:none;
+.TitleIcon,
+.YearIcon {
     width:2rem;
     height: 2rem;
-    outline: none;
-    cursor: pointer;
 }
 
-.TitleButton {
+.TitleIcon {
     background: url('../../../assets/images/search-icon-yellow.png') center center no-repeat;
 }
 
@@ -46,6 +43,6 @@
     font-weight: 100;
 }
 
-.YearButton {
+.YearIcon {
     background: url('../../../assets/images/year-icon.png') center center no-repeat;
 }
