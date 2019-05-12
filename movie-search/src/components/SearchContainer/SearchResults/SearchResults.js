@@ -21,7 +21,14 @@ const searchResults = props => {
       />
     )
   })
-  return <div className={styles.SearchResults}>{results}</div>
+  return (
+    <div className={styles.SearchResults}>
+      <div className={styles.TotalResults}>
+        {props.totalResults ? props.totalResults + ' movies' : null}
+      </div>
+      {results}
+    </div>
+  )
 }
 
 export default searchResults
