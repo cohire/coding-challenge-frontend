@@ -1,0 +1,58 @@
+.Result {
+    padding:1rem;
+    display:flex;
+    background: white;
+    margin-bottom:1rem;
+    
+}
+
+.ResultImageContainer {
+    width: 185px;
+    margin-right: 1rem;
+    overflow: hidden;
+}
+
+.ResultImage {
+    width: 100%;
+    height: auto;
+}
+
+.ResultDetails {
+    width: 100%;
+    position: relative;
+}
+
+.ResultCardHeader {
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.ResultCardHeader h2 {
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.ResultVote {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color:white;
+    background-color: var(--bright-green);
+    border-radius: 5px;
+    padding:.5rem;
+}
+
+.Genres {
+    color: var(--bright-green);
+}
+
+.ResultOverview {
+    line-height:1.3rem;
+}
+
+.ReleaseDate {
+    position: absolute;
+    bottom:0;
+    color: var(--bright-green);
+}

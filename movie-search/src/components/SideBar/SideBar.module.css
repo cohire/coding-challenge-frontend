@@ -1,0 +1,60 @@
+.Sidebar {
+    flex-basis: 15%;
+    background-color: var(--dark-blue);
+    color: white;
+    height: 100vh;
+}
+
+.SidebarHeader {
+    position: relative;
+    padding:2rem;
+}
+
+.Title {
+    font-size: 2rem;
+    font-weight: bold;
+
+}
+
+.Arrow,
+.Search {
+    background: url('../../assets/images/arrow-icon.png') center center no-repeat;
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    right: 2rem;;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+.Subtitle {
+    font-size: 1.7rem;
+    padding:1.5rem;
+    position: relative;
+}
+
+.Search {
+    background:url('../../assets/images/search-icon-white.png') center center no-repeat;
+
+}
+
+.Underline::after {
+    content:"";
+    position:absolute;
+    bottom: 0;
+    background:var(--blue);
+    right:0;
+    width:calc(100% - 2rem);
+    height:1px;
+}
+
+.SubmenuItem {
+    font-size:1.5rem;
+    font-weight: 100;
+    padding: 1.5rem 0 0 1.5rem;
+}
+
+.Active {
+    background-color: var(--bright-green)
+}
